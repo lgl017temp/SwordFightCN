@@ -1,0 +1,11 @@
+{
+	"editor.largeFileOptimizations": false,
+	"maptz.regionfolder": {
+		"[plaintext]": {
+			"foldStartRegex": "^[\\s]*/////+region[\\s]*" ,
+			"foldEndRegex": "/////+endregion[\\s]*$",
+			"isFoldedByDefault": true
+		}
+	},
+	"editor.showFoldingControls": "always",
+}
