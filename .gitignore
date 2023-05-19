@@ -1,11 +1,12 @@
-Game Data/*
-MonoBleedingEdge/*
-Player Data/*
-Sword Fight_Data/*
+Game Data
+MonoBleedingEdge
+Player Data
+Sword Fight_Data
 Sword Fight.exe
 UnityCrashHandler64.exe
 UnityPlayer.dll
 
 BepInEx/LogOutput.log
+BepInEx/cache
 BepInEx/Plugins/RuntimeUnityEditor
 BepInEx/config/RuntimeUnityEditor.cfg
