@@ -1,0 +1,240 @@
+(+20% to Milestones each time a Local Rival is used as a Cofounder, Master or Advisor.  Max 10)
+(Fame Bonus at Next Milestone: x1.01\nFame Bonus with All Milestones: x5.0)
+(info about quick Set buttons here)
+(If Custom: Click the > symbol in each Action to cycle through layout options)
+(Foreign Rivals require 10x Fame.  Level adjusts to match Area difficulty.  No Special Training)
+(Reach Expert with 3 Swords to Unlock)
+(Foreign Rivals need 3 Stars permanently unlocked.  10x Base Cost.  No Special Training.  Their level adjusts to match Area difficulty)
+(Only Rivals with all Cofounder Special Training completed are listed)
+(Limit: 2 Upgrades)
+(Instantly spend Stored Time as though Offline)
+(Temp ID: 7c99a2c4-a48c-4274-bcc7-2de683d2dc1e)
+(The Advisor gives a 10% Fame bonus and access to Founder skills based on how long they have been hired.  Can only hire Rivals who have completed all of their Cofounder Special Training.  Having two of the same Founder Skill does nothing.)
+(Requires Quick Set Buttons to be On)
+(Sign-in to make cloud save data and purchases easier to recover)
+[Primary Skill] Level 10 (increases HP & Stamina)
+?Merchant?
++1 Level (?): Error\n+10 Levels (?): Error\nNext Sparring Level (?): Error\nMax Special Training/Max Level (?): Error
++5% Exp per equipped Side Sword's Level (highest of the pair if Dual Swords Style) [Current Bonus: 270%]
++5 Gold Coins
++3 Hybrid Fighting Skill Sets (1 Gold)
++20% Rival Exp/\nCommand Level
+<sprite name\="check" tint\=1><sprite name\="gDash" tint\=1> Invading Blight 1
++5% Exp per Side Sword Mastery Level [Current Bonus: 315%]
+<#BB0000>(Temp ID: 7c99a2c4-a48c-4274-bcc7-2de683d2dc1e)
+1/10th Plat
+1 \nLine
+1st Star\n(Most Awards)\nL135 Master
+1000x H. Fame
+3 \nLines
+20% Foreign\nSp. Trainings\nUnlocked
+5 \nLines
+30 Days
+40% Foreign\nSp. Trainings\nUnlocked
+36th Star\n(2nd School)\n(20k Fame)
+60% Foreign\nSp. Trainings\nUnlocked
+5 Days
+6\nLine
+6 New Rivals added to Area 2 plus 20 New Awards!\n\nA New Wounds and Durability System have been added.  Most attacks deal wounds and can damage gear.  Wounds reduce stats and can have other effects depending on the body part wounded.  Gear reduces Damage and HP bonuses, and a lot of damage can reduce their level\n\nThe Advisor Menu has been upgraded!  Advisors now keep their progress until a new school is built and each completed Advisor boosts fame by 5%.  Influence Points spent are recovered at a rate of 1 every 4 hours\n\n<b>Area 2 Balance Changes:</b>\n -<indent\=3%>Reduced Area 2's Level Boost for enemies from 1.5x to 1.25x (their stats at level 80 are like level 100 now instead of level 120)</indent>\n -<indent\=3%>Falter: Changed from -100 Stats to -3% Stats (After Calcs)</indent>\n -<indent\=3%>Defend Stance: Kept the +30% Attack Failure each attack but reduce it 10% each defend</indent>\n -<indent\=3%>Disarm is now based on Primary Arm Wounds & Primary Sword Damage</indent>\n\n<b>Other Balance Changes:</b>\n -<indent\=3%>+1% Atk and Hit for every 10% Attack Speed difference to the faster fighter</indent>\n\n<b>Bug Fixes:</b>\n -<indent\=3%>Fixed an error with the 'Unit Swap Trial' (a zone in Blight Management's Training Map) that could cause save data to become corrupt</indent>\n -<indent\=3%>Improved the Save/Load system to help prevent corruption</indent>\n -<indent\=3%>When loading games Battles would start based on last zone selected instead of the last zone you were doing battle in</indent>\n -<indent\=3%>Enemy HP for each dual was being calculated before Infection was reset</indent>\n\nSee Discord for the complete list of changes and bug fixes\n
+A1\nLegends
+60.5 fps
+Ability: 2x Points from Battle
+80% Foreign\nSp. Trainings\nUnlocked
+9th Star\n(T1 Rivals)\nL165 Master
+Adds the Lead Administrator Mastery Skill (+10% Plat per Master with Prestige).  Each level increases the Max Level by 3 and reduces the cost by 1 (minimum cost 1)
+Adds the Inspiring Leader Mastery Skill (Boosts Exp and Rival Exp per Master with Leadership).  Each level increases the Max Level by 3 and reduces the cost by 1 (minimum cost 1)
+Add More Time:
+Admin Guide
+Amateurs
+All Foreign\nSp. Trainings\nUnlocked
+Adds the Lead Researcher Mastery Skill (+10% Scroll Exp per Master with Wisdom).  Each level increases the Max Level by 3 and reduces the cost by 1 (minimum cost 1)
+Area 1: The Heartlands
+Auto Build Options
+Auto Battle Time Estimates
+Basic Description of the Mastery
+Blade Mastery
+Basic Description of the Mastery\n\n
+Blue\nSchool
+Blue School
+Building Data 2
+Building Data 3
+Boosts Gold based on Levels in Prestige and Plat based on Levels in Advocate. Each level increases the Max Level by 3 and reduces the cost by 1 (minimum cost 1)
+Building Data 1
+Bonuses activate (light up) with each Milestone reached starting with the Top-Left.  If the bonus has any locks then 1 is removed.  Can only break 1 lock on each bonus per school
+Choose Fighting Skill Template
+Calculations
+Choose Opponents you Prefer to Duel
+Completion Data (Disciple/Founder text only)
+Choose Skill
+City 1
+Current Tutorial: Tut01_00 (NEW0)
+Current Tutorial: TutA1Q5MT3_02 (M_TRAIN3_02)
+Current Tutorial: Tut21_01 (EMBASSY1)
+Cut Bonus: +50% Base Sword Damage
+Custom
+Date and Time\nDisciple Level\nMaster Level
+Data for Value 2
+Debug Log
+Date and Time\nDisciple Level\nMaster Level\nFame? Embassy?
+Description of  the skill goes here\nLine 2\nLine 3
+Description of the award's unlock mechanism goes here\n(3rd line shows how close you are to unlocking)
+Description Goes Here
+Details
+Description of the map
+Description of the skill goes here.\nUp to 2 lines of text.
+Destination Name
+Description of the skill goes here.\nUp to 3 lines of text.\n(Line #3)
+Double Gold
+Double H. Fame
+Double Plat
+Edit Templates
+Embassy
+Embassy Bonuses
+Enter Login Info If Available
+Enable
+Embassy\nFame Bonus\nUnlocked
+Fame: 202.6e88   HTL:8888\n33 of 36 Rival Stars Collected\n0 of 3 Cofounders Completed\n0 Embassy Bonuses Unlocked
+Error 400: Request timeout
+Equips the Uniform at the start and at the end when all items have reach Master Rank Familiarity (L60)
+Family Feud
+Familiarity <size\=75%><voffset\=0.1em>(Highest Levels Ever)
+2 \nLines
+Family History
+Fighting Skill Description goes here. The Vertical Layout uses spacers that I can Show/Hide to better control the spacing.
+Fighing Skills
+Fighting Tactic
+Foreign Rival\nHire Costs: 2x
+Following Rotvick's lead Freud would like to win the Grandmaster Tournament using his new training in Barrage stance, regardless of any disadvantages\n\n4-Round Masters Tournament.  Win to raise Freud's rank to Grand Master and unlock his 3rd Tactic\n\n<b>Special Rules:</b> Freud Only\n\n<b>Match Type:</b> 4 Round Tournament (L85-100)
+Final\n1000
+Foreign Rival\nHire Costs: 3x
+Foreign Rival\nHire Costs: 5x
+FORGE MENU
+Greater Dual Swords Mentor 1
+Grand Master Johannes
+Grudge Match
+History of Combat
+History of Battle
+HELP MENU
+History of War
+Ignore 2\nEmbassy\nPenalty
+Increase Training's Influence by 1
+II
+Ignore 1\nEmbassy\nPenalty
+Info about the Rival goes here\nStats and details on their special abilities.\nOnly 3 lines of information allowed
+Info about the Selected Tournament goes here\nStats, Rules, Enemies, Limitations, etc..\n(Not sure yet what kind of information I will need)\n\n
+Info about the Destiantion goes here\nStats and details on rules and limitations.\nNot sure yet what kind of information I will need
+Info about the Destiantion goes here\nStats and details on rules and limitations.\nline 3\nline 4
+Inspiring Leader 0
+Injuries
+Initiation
+l>
+Invading Blight 1
+Items are upgraded one level at a time, lowest cost first (Upgrade Cost * Savings Adjustment), top to bottom
+Item Name
+Lead Administrator 0
+Last Round Triggers Trial
+Level 20 Bonus: Desciption of the bonus goes here\\n\\n
+Level 10 Bonus: Should I make it two lines?\\n\\n
+Level 30 Bonus: Desciption of the bonus goes here\\n\\n
+Log Entry Number 1
+Lead Researcher 0
+Like the others Greg Jr. is determined to win the Grandmaster Tournament by relying on his new training as much as possible\n\n4-Round Masters Tournament.  Win to raise Greg Jr.'s rank to Grand Master and unlock his 3rd Tactic \n\n<b>Special Rules:</b> Greg Jr. Only\n\n<b>Match Type:</b> 4 Round Tournament (L85-100)
+Lesser Zombies
+Log Entry Number 2
+Log Entry Number 3
+Log Out
+Log Entry Number 4
+Log Entry Number 5
+Map Desciption if this is the Founder/Disciple being selected
+Map Details\n
+Map Details
+Long Sword (Skill Rank A+)
+Master's Name:
+Masters Guide
+Maps
+Mastery Skill description.
+Mastery Skill's Bonus.
+MAX
+MISSING DATA
+Multiple Tactic Sets:
+MERCHANT LINEAGE MENU
+New Item(s) Acquired!
+Natural Diplomat 0
+NEW GAME\nVia Full reset\n
+New Rank: Provost\n(+Time Man.)
+New Rank: Journeyman (Fam. unlocked)
+Next: Rank #1 Archaic
+No Sword & Shield Scrolls: Purchase Library to Begin Research
+No Information Yet
+No Two-Handed Scrolls: Purchase Library to Begin Research
+NOT SET
+Noble Lineage: Duke (Rank 5)
+Old: Pre-Area 2\nL7 Sch, 16 CF, 54*\nD1300, 200M Fame
+Old: A2T2 Rivals\nA2: 3 CF, 36*\n2M Fame, 10 E
+Old: T4 Lineage\nL6 Sch, 16 CF, 45*\n D1400, 6M Fame 
+Old: Pre-New School\nHigh Level w/"Shield"\n(load testing only)
+Old: Pre-Lineage\nL4 School, 2 Stars\nD180, 3xM130
+Old: Pre-New School\nL5 School, 24*\nD540, R1000\n
+Old: T6 Rivals\nL6 Sch, 16 CF,  45*\n D1700, 200M Fame
+Past
+Opponent Name/Co-Founder
+Pattern Triggers Trial
+Play Time: 8888D 88H 88M 88S
+Position is Vacant/Master's Class & Level
+Pre-Advisor\n53 Rival Stars\n12 Cofs *BAD*
+Pre-First School\n(Most Awards)
+Prize 1
+Prize 4
+Quests may unlock one or more tabs while they are active.  \n\nThis quest uses a map: Clear zones by defeating the enemies which will unlock more zones.  Zones with a 
+Quick Set Buttons:
+Pre-New School\n(5000 Fame)
+Recruting 100
+Random Note
+Rival Basics <size\=75%><voffset\=0.1em>(Stars, Awards & Sp. Training)
+REWARD
+Rival Schools
+Rival Exp needs
+Rival Win Pop-Up details
+Savings Adjustments
+Rival Win Pop-Up details\n
+Scout: 1h 30m\nInvade: 3h 40m\nConquer: N/A (requires Purify)\nPurge: N/A (Must be able to Conquer)\nFortify: N/A (Must be able to Conquer)
+Scout the Old Trade Route
+Scout 3 Old Trade Route Maps
+Set Switching Modifiers:
+Silver Lineage Coins: +1 Per Highest Level
+Select Location of your Main Account
+Sell
+Selection Description\nLine 2
+Skill Points to Remain Unspent
+Student Guide
+Size:\nLevel:\nLvl Inc:\nEffect:
+Since the others are doing it Gromit will do his best to use only Blitz but old habits are hard to break\n\n4-Round Masters Tournament.  Win to raise Gromit's rank to Grand Master and unlock his 3rd Tactic\n\n<b>Special Rules:</b> Gromit Only\n\n<b>Match Type:</b> 4 Round Tournament (L85-100)
+Style Triggers Trial
+Spend Influence Points to unlock Advisor's Skills faster
+Tactics Memory Buttons
+TEMP - 4x Speed\n *BAD*
+Time Controls\n0h 0m 0.0s
+TESTING MENU
+The Current School's Fame is added to Historical Fame.  Masters, Buildings, Scrolls, Rival Stars, Rival Special Training and Jobs reset
+Swashbucklers Unit (Grand Master L888)
+Town 1
+To become the best Rotvick believes one must always fight under the harshest conditions.  He realizes now that this is limiting his techinque so once he is Grandmaster he will allow himself to fight using any stance \n\n4-Round Masters Tournament.  Win to raise Rotvick's rank to Grand Master and unlock his 3rd Tactic\n\n<b>Special Rules:</b> Rotvick Only\n\n<b>Match Type:</b> 4 Round Tournament (L85-100)
+Time Skips
+Time Controls\n1h 0m 0.0s
+Upgrade at Any Cost
+Unlocks "Farmlands 1" Map\na
+User ID: lgl017
+Utility
+Withdraw\n
+V0.16.2a\nComplete\n
+VLAD!\n
+(Costs 1 point per 8 hours remaining)
+(You can Enable/Disable these services at anytime using the Settings Menu)
+Amateur
+Buildings are upgraded one level at a time, lowest cost first (Upgrade Cost * Savings Adjustment), top to bottom
+Chance Triggers Trial
+Data for Value 1
+Friendly Challenge
+Ignore All\nEmbassy\nPenalty
+injuries text
+New Items Acquired!
