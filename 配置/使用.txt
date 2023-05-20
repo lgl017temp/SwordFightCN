@@ -1,0 +1,3 @@
+将对应文件重命名为AutoTranslatorConfig.ini，替换BepInEx\config\AutoTranslatorConfig.ini
+
+不愿自动更新又想更新的，可以直接下载updateUrl的文件，替换chs\dictionary.txt
