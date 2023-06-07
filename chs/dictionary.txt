@@ -1259,6 +1259,23 @@ Special Trainings to unlock this ability=特殊训练以解锁此能力
 Check Requirements=检查要求
 Reduce Impact to 0% when Blocking. Has no effect on Armor Impact (Temporary effect - lasts only as long as the trigger is true)=格挡时将冲击降低到 0%. 对护甲冲击没有影响 (临时效果 - 仅在触发器为是时持续)
 Restores Defending Impact% to normal if 0% Def Impact was activated by a previous Action=如果上一个动作激活了 0% 防御冲击, 则将 防御冲击率 恢复为正常
+Last Round Triggers=最后一轮触发器
+Last Round=最后一轮
+Attacked=攻击
+Defended=防御
+Rested=休息
+Damaged=受伤
+Not Damaged=没有受伤
+Triggers if the Enemy Attacked last round=上一轮敌人攻击时触发
+Triggers if the Disciple Attacked last round=上一轮弟子攻击时触发
+Triggers if the Enemy was Attacked last round=上一轮敌人被攻击时触发
+Triggers if the Disciple was Attacked last round=上一轮弟子被攻击时触发
+Triggers if the Enemy Rested last round=上一轮敌人休息时触发
+Triggers if the Disciple Rested last round=上一轮弟子休息时触发
+Triggers if the Enemy was Damaged last round=如果敌人在上一轮受到伤害则触发
+Triggers if the Disciple was Damaged last round=如果弟子在上一轮受到伤害则触发
+Triggers if the Enemy successfully defended an attack last round=如果敌人上一轮成功防御攻击则触发
+Triggers if the Disciple successfully defended an attack last round=如果弟子上一轮成功防御攻击则触发
 /////////endregion
 
 /////////region 战斗技能
@@ -2165,8 +2182,14 @@ each combo attack until end of combo=每次连击直到连击结束
 Ignores Combos=忽略连击
 Infinite Combo Trial=无限连击考验
 Rotvick's refusal to use the strongest stance and his bad habits from years of cutting crops may make this fight a bit difficult.  Someone else may have to complete it.  Advanced Fighting Skills Test 4: Defeat an enemy with 100% Defend=罗特维克拒绝使用最强势的姿态, 以及他多年割草养成的坏习惯, 可能会让这场战斗变得有些艰难.  其他人可能必须完成它.  进阶战斗技巧测试 4: 以100%防御击败敌人
- Level Increased by 5 and his 2nd Tactic is no longer Restricted!=等级提升5, 第二招不再受限!
+ Level Increased by 5 and his 2nd Tactic is no longer Restricted!=等级提升5, 第二策略不再受限!
 Shared & Advisory Points=共享 & 咨询点数
+Following Rotvick's lead Freud would like to win the Grandmaster Tournament using his new training in Barrage stance, regardless of any disadvantages=在罗特维克的带领下, 弗洛伊德希望使用他在弹幕姿态中的新训练赢得大师锦标赛, 而不考虑任何劣势
+4-Round Masters Tournament=4 轮大师赛
+Win to raise Freud's rank to Grand Master and unlock his 3rd Tactic=获胜可将弗洛伊德的段位提升为大师并解锁他的第三个战术
+Freud Only=仅限弗洛伊德
+ is now Grand Master Rank, his level increased by 5 and his 3rd Tactic is no longer Restricted=晋级宗师段位, 等级提升5, 第三策略不再受限
+Tournament Complete=比赛完成
 /////////endregion
 
 /////////region 宿敌
