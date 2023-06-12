@@ -91,6 +91,10 @@ You now have enough fame to Open a New School=你现在有足够的名望来开�
 Archives Unlocked=档案已解锁
 Spend Historical Fame in the Archives=在档案中花费历史名望
 Archive bonuses never reset=档案奖励永不重置
+You now have a Co-Founder=你现在有一个联合创始人
+Co-Founders are like hired masters except Special Training unlocks permanently when completed and each one unlocks a special bonus=联合创始人就像雇用的大师, 除了特殊训练在完成后会永久解锁并且每个人都会解锁特殊奖励
+New Archives are available=新档案可用
+Complete Cofounder Special Trainings to unlock them=完成联合创始人特殊培训以解锁它们
 /////////endregion
 
 /////////region 杂项
@@ -129,6 +133,10 @@ Advanced Stats=高级属性
 Adv Stat=进阶属性
 HP=生命值
 Hp=生命值
+Hp Segment=生命值段
+HP Segment=生命值段
+Hp Segments=生命值段
+HP Segments=生命值段
 Stamina=体力
 Damage=伤害
 Dmg=伤害
@@ -182,6 +190,7 @@ Skill Points=技能点
 Upgrade=升级
 Upgrade Cost=升级成本
 Downgrade=降级
+Down=降级
 Earn=获得
 Cost=成本
 Total=共计
@@ -314,6 +323,7 @@ Sp. Training=特殊训练
 Embassies=大使馆
 Top Schools List=顶尖学校名单
 Top Schools=顶尖学校名单
+Top School Fame=顶尖学校名望
 Fame & Archives=名望 & 档案
 Highest Training Level=最高训练等级
 Rival Levels=宿敌等级
@@ -623,6 +633,7 @@ Quest Complete=任务完成
 Quest List=任务列表
 QUEST TITLE=任务标题
 Reward=奖励
+REWARD=奖励
 Rewards=奖励
 Replay Rewards=重玩奖励
 Completion=完成
@@ -973,7 +984,6 @@ No Special Training Bonuses=无特殊训练奖励
 Total Special Training Completed All Rivals=所有宿敌完成的特殊训练总数
 Description of the skill goes here=技能说明在这里
 Up to 3 lines of text=最多 3 行文本
-Down=降级
 Complete Special Training to get more Skill Points=完成特殊训练以获得更多技能点
 Rules=规则
 No Penalties=无惩罚
@@ -1075,7 +1085,7 @@ End Battle to Train with the Disciple=结束战斗与弟子修行
 Unit's Level=单位等级
 Battle Points per Minute=每分钟战斗点数
 Award Name=奖项名称
-Description of Award's Bonus goes here=奖励奖金的描述在这里
+Description of Award's Bonus goes here=奖项奖励的描述在这里
 Can be up to 2 lines=最多可以有 2 行
 Defeated Rivals=已击败宿敌
 per level=每级
@@ -1211,6 +1221,7 @@ Falter=踌躇
 Total Wounds=总计伤口
 Enemy Wounds=敌人伤口
 Disciple Wounds=弟子伤口
+Unit Wounds=单位伤口
 each wound=每个伤口
 every 4 wounds=每 4 个伤口
 every 10 wounds=每 10 个伤口
@@ -1233,13 +1244,17 @@ Secondary Sword Damage=副手剑损坏
 Shield Damage=盾牌损坏
 Left-Sword=左手剑
 Dual Sword=双剑
+Dual-Sword=双剑
 Error opening Alert Pop-Up=打开警报弹出窗口时出错
 Restricted Skill, cannot be selected=受限技能, 无法选择
 Import Gear=导入装备
 Original\nCost=原始成本
 Switch to =切换到
-at the Start of a fight or when resting=在战斗开始或休息时切换到击剑风格
+at the Start of a fight or when resting=在战斗开始或休息时
 Can switch anytime if using anytime if Two-Handed Style=如果双手风格, 随时使用, 可以随时切换
+Can switch anytime if using anytime if Fencing Style=如果击剑风格, 随时使用, 可以随时切换
+Switch between Fencing and Two-Handed sword styles=在击剑和双手风格之间切换
+Works any time=随时生效
 Reduce Impact to 0% when Attacking=攻击时将冲击降低至 0%
 Restores Attacking Impact% to normal if 0% Atk Impact was activated by a previous Action=如果上一个动作激活了 0% 冲击影响, 则将攻击冲击率恢复为正常
 Random Stance=随机姿态
@@ -1266,16 +1281,107 @@ Defended=防御
 Rested=休息
 Damaged=受伤
 Not Damaged=没有受伤
-Triggers if the Enemy Attacked last round=上一轮敌人攻击时触发
-Triggers if the Disciple Attacked last round=上一轮弟子攻击时触发
-Triggers if the Enemy was Attacked last round=上一轮敌人被攻击时触发
-Triggers if the Disciple was Attacked last round=上一轮弟子被攻击时触发
-Triggers if the Enemy Rested last round=上一轮敌人休息时触发
-Triggers if the Disciple Rested last round=上一轮弟子休息时触发
+Dodged=闪避
+Full Damage=满额伤害
+Deflected Damage=偏斜伤害
+Break-Through Damage=突破伤害
+Critical Damage=暴击伤害
+Triggers if the Enemy Attacked last round=如果上一轮敌人攻击时触发
+Triggers if the Disciple Attacked last round=如果上一轮弟子攻击时触发
+Triggers if the Enemy was Attacked last round=如果上一轮敌人被攻击时触发
+Triggers if the Disciple was Attacked last round=如果上一轮弟子被攻击时触发
+Triggers if the Enemy Rested last round=如果上一轮敌人休息时触发
+Triggers if the Disciple Rested last round=如果上一轮弟子休息时触发
 Triggers if the Enemy was Damaged last round=如果敌人在上一轮受到伤害则触发
 Triggers if the Disciple was Damaged last round=如果弟子在上一轮受到伤害则触发
 Triggers if the Enemy successfully defended an attack last round=如果敌人上一轮成功防御攻击则触发
 Triggers if the Disciple successfully defended an attack last round=如果弟子上一轮成功防御攻击则触发
+Triggers if the Enemy Dodged an attack last round=如果敌人上一轮闪避了一次攻击则触发
+Triggers if the Disciple Dodged an attack last round=如果弟子上一轮闪避了一次攻击则触发
+Triggers if the Enemy used Sword to block last round=如果敌人上一轮使用剑格挡则触发
+Triggers if the Disciple used Sword to block last round=如果弟子上一轮使用剑格挡则触发
+Triggers if the Enemy used Shield to block last round=如果敌人上一轮使用盾牌格挡则触发
+Triggers if the Disciple used Shield to block last round=如果弟子上一轮使用盾牌格挡则触发
+Triggers if the Enemy was dealt Critical damage last round=如果敌人上一轮受到暴击伤害则触发
+Triggers if the Disciple was dealt Critical damage last round=如果弟子上一轮受到暴击伤害则触发
+Triggers if the Enemy was Fully Damaged last round=如果敌人上一轮受到满额伤害则触发
+Triggers if the Disciple was Fully Damaged last round=如果弟子上一轮受到满额伤害则触发
+Triggers if the Enemy Deflected an attack last round and took Damage=如果敌人上一轮偏斜攻击并受到伤害则触发
+Triggers if the Disciple Deflected an attack last round and took Damage=如果弟子上一轮偏斜攻击并受到伤害则触发
+Triggers if the Enemy's block was broken last round and took Damage=如果敌人的格挡在上一轮被突破并受到伤害则触发
+Triggers if the Disciple's block was broken last round and took Damage=如果弟子的格挡在上一轮被突破并受到伤害则触发
+Style Triggers=风格触发器
+Pattern Triggers=格局触发器
+Pattern=格局
+Odd Rounds=奇数回合
+Even Rounds=偶数回合
+1st of 3=3 轮中的第 1 轮
+2nd of 3=3 轮中的第 2 轮
+3rd of 3=3 轮中的第 3 轮
+Trigger is True every Odd Round=每奇数轮触发器为是
+Trigger is True every Even Round=每偶数轮触发器为是
+Trigger activates on the 1st of every 3 Rounds=触发器在每 3 轮的第 1 轮激活
+Trigger activates on the 2nd of every 3 Rounds=触发器在每 3 轮的第 2 轮激活
+Trigger activates on the 3nd of every 3 Rounds=触发器在每 3 轮的第 3 轮激活
+Trigger activates on the 1st of every 4 Rounds=触发器在每 4 轮的第 1 轮激活
+Trigger activates on the 2nd of every 4 Rounds=触发器在每 4 轮的第 2 轮激活
+Trigger activates on the 3rd of every 4 Rounds=触发器在每 4 轮的第 3 轮激活
+Trigger activates on the 4th of every 4 Rounds=触发器在每 4 轮的第 4 轮激活
+Chance this Trigger will activate each Round=几率激活此触发器每轮
+Chance Triggers=概率触发器
+Boosts=提升
+Special Modifier=特殊修改器
+Only the first Special Modifier to activate each round goes into effect=每轮只有第一个激活的特殊修改器生效
++10% Attack Chance this round=本回合 +10% 攻击几率
++10% Defend Chance this round=本回合 +10% 防御几率
++10% Hit Chance this round=本回合 +10% 命中几率
++8% Stats on Change=变化时 +8% 属性
++8% Atk, Hit and Def this round if Stance or Style changed=如果姿态或风格改变, 本回合 +8% 攻击, 命中和防御
+Permanently=永久
+Permanently Unlock=永久解锁
+Increase Endurance's Base HP bonus by +2 and Stamina by +1 per level=增加 耐力 的基础生命值加成 +2 和体力 +1 每级
+Increase Strength's Base Damage bonus by +2 per level=增加 力量 的基础伤害加成 +2 每级
+Increase Aggression's Attack bonus by +2 per level=增加 好斗 的攻击加成 +2 每级
+Increase Accuracy's Hit bonus by +2 per level=增加 精准 的命中加成 +2 每级
+Increase Vigilance's Defend bonus by +2 per level=增加 警惕 的防御加成 +2 每级
+Increase Concentration's Attack, Hit and Defend by +1.2 per level=增加 专注 的攻击, 命中和防御 +1.2 每级
+Increase Fencing's Hit by +2 and Defend by +1 per level=增加 击剑 的命中 +2 和防御 +1 每级
+History of Two-Handed Swords=双手剑历史
+Increase Two-Handed Swords Attack, Hit and Defend by +1.2 per level=增加 双手 剑 攻击, 命中和防御 +1.2 每级
+Increase Sword & Shield's Defend by +2 and Hit by +1 per level=增加 剑&盾 的防御 +2 和命中 +1 每级
+Increase Dual Swords Attack by +2 and Hit by +1 per level=增加 双剑 攻击 +2 和命中 +1 每级
+Increase Technique's Attack, Hit and Defend by +1.2 per level=增加 技巧 的攻击, 命中和防御 +1.2 每级
+Increase Critical's bonus by +0.4% per level=增加 暴击 的加成 +0.4% 每级
+Each one completed unlocks a new bonus=每一个完成解锁一个新的奖励
+Bonuses=奖励
+Can't Train until Grandmaster Rank=宗师段位之前不能训练
+Co-founder=联合创始人
+Farmlands=农田
+Farmland=农田
+Northern Farmlands=北部农田
+the Northern Farmlands=北部农田
+South Blight=南部瘟疫
+South Blight Border=南瘟疫边境
+the South Blight's Border=南瘟疫边境
+Old Trade Route=旧贸易路线
+the Old Trade Route=旧贸易路线
+2 lines of text=2行文本
+Requires Rival Level=需要宿敌等级
+Lock Mechanism=锁定机制
+Disciple/Founder text only=仅弟子/创始人文本
+Size=大小
+Lvl Inc=等级增长
+Effect=效果
+North Road=北方道路
+Embassy=大使馆
+Ignore=忽略
+Penalty=惩罚
+Up to 2 lines of text=最多 2 行文本
+Line #=行 #
+Date and Time=日期和时间
+Date=日期
+Location=位置
+CoFounder=联合创始人
 /////////endregion
 
 /////////region 战斗技能
@@ -1560,14 +1666,25 @@ Main School Building can now be upgraded to Level 5=主要学校现在可以升�
 Once upgraded you will be able to hire Rivals and unlock higher levels of the other buildings=升级后, 你将能够雇佣宿敌并解锁更高级别的其他建筑
 Main School Building can now be upgraded to Level 6=主要学校现在可以升级到 6 级
 May unlock higher levels of the other buildings and other perks=可以解锁更高级别的其他建筑物和其他津贴
+Time Controls=时间控制
+Time Skips=时间跳跃
+Instantly spend Stored Time as though Offline=像离线一样立即使用存储时间
+ Job Growth= 工作增长
 /////////endregion
 
 /////////region 关键词杂项
 Fencing=击剑
+Fencing Style=击剑风格
 Two Handed=双手
+Two Handed Style=双手风格
+Two Handed Sword Style=双手风格
 Two-Handed=双手
+Two-Handed Style=双手风格
+Two-Handed Sword Style=双手风格
 Dual Swords=双剑
+Dual Swords Style=双剑风格
 Sword & Shield=剑&盾
+Sword & Shield Style=剑&盾风格
 
 Vitality=活力
 Tenacity=韧性
@@ -1603,19 +1720,33 @@ Head Master Silver=带头人 西尔弗
 Rotvick=罗特维克
 Rotvick's=罗特维克的
 James=詹姆士
+James'=詹姆士的
+James's=詹姆士的
 Xander=赞德
+Xander's=赞德的
 Edward=爱德华
+Edward's=爱德华的
 Sigmund=西格蒙德
+Sigmund's=西格蒙德的
 Ward=沃德
+Ward's=沃德的
 Erik=艾瑞克
+Erik's=艾瑞克的
 Greg=格雷格
+Greg's=格雷格的
+Greg Jr=小格雷格
 Greg Jr.=小格雷格
 Greg Sr.=老格雷格
 Marshall=马歇尔
+Marshall's=马歇尔的
 Drevon=德雷文
+Drevon's=德雷文的
 Kyle=凯尔
+Kyle's=凯尔的
 Wallace=华勒斯
+Wallace's=华勒斯的
 Jean=吉恩
+Jean's=吉恩的
 Drake=德雷克
 Robin=罗宾
 Cyrus=赛勒斯
@@ -1634,7 +1765,6 @@ Afdal=阿夫达尔
 Xerxes=薛西斯
 Shirkuh=谢尔库赫
 Fredrick=弗雷德里克
-Jean=吉恩
 Godfrey=戈弗雷
 
 Peasant=农民
@@ -1692,6 +1822,7 @@ Baron=男爵
 Viscount=子爵
 Earl=伯爵
 Marquess=侯爵
+Duke=公爵
 Secret Training=秘密训练
 Basic Secret Training=基础秘密训练
 Hour of Secret Training=小时的秘密训练
@@ -1775,6 +1906,8 @@ Civilian=平民
 Private=列兵
 Corporal=下士
 Sergeant=军士
+Lieutenant=中尉
+Captain=上尉
 Auto-Concentrate=自动专注
 Auto Click=自动点击
 Auto-Clicks for Concentrate once at the Start of each Fight=每场战斗开始时自动点击一次专注
@@ -1844,6 +1977,7 @@ Congregant=会众
 Cleric=教士
 Priest=牧师
 Vicar=副主教
+Archpriest=大祭司
 Reset Skills=重置技能
 Reset Disciple Skills=重置弟子技能
 Reset Fighting Skills once per Disciple  (A button has been added to the Skill Menu)=每个弟子可以重置战斗技能一次  (技能菜单中添加了一个按钮)
@@ -1998,6 +2132,8 @@ Restart quest to try again=重新开始任务再试一次
 Your next training assignment is to Scout a larger section of the Blight=你的下个训练任务是侦察更大的瘟疫区
 You will need to secure zones to fallback to in order to Scout the whole area=你将需要安全区域以进行后退, 以便侦察整个区域
 To Scout=去侦察
+Scout=侦察
+Scouting Map=侦查地图中
 Invade or Conquer each Zone at least once=至少入侵或征服每个区域一次
 Invade or Conquer each zone at least once=至少入侵或征服每个区域一次
 Invade or Conquer all zones at least once=至少入侵或征服所有区域一次
@@ -2034,10 +2170,10 @@ Power Strikes First Trial=强力打击优先考验
 Combo Attacks have priority when using Blitz stance=使用闪击姿态时, 连击优先
 Use your new Fighting Tactic to make Power Strikes the priority instead=使用你的新战斗策略来优先使用强力打击
 Can only be hit by Power Strikes=只能被强力打击击中
-except vs Blitz=除了对战闪击
-except vs Guard=除了对战警戒
-except vs Barrage=除了对战弹幕
- vs Guard=对战警戒
+except vs Blitz=除了对抗闪击
+except vs Guard=除了对抗警戒
+except vs Barrage=除了对抗弹幕
+ vs Guard=对抗警戒
 Special Rules=特殊规则
 Disciple has 100% Power Strike & Combo Strike, 0% other Specials & Break-Through chance=弟子有 100% 机率强力打击和连击, 0% 机率其他特殊攻击&突破
 First to 3 Hits Wins=先击中 3 次为胜
@@ -2047,7 +2183,7 @@ Stance Change Trial=站姿改变考验
 Demonstrate your ability to use a standard set of tactics=展示你使用一套标准策略的能力
 Use a defensive stance until the enemy is tired=使用防御姿态直到敌人疲倦
 Guard in this case=在这种情况下警戒
-if Stamina green/yellow or vs Guard=如果体力在 绿色 / 黄色 或对战警戒
+if Stamina green/yellow or vs Guard=如果体力在 绿色 / 黄色 或对抗警戒
 Disciple has 0% all Special Attacks & Break-Through chance=弟子有 0% 机率所有特殊攻击&突破
 Counter Attack Triggers Trial=反击触发器考验
 Changing Stances when launching Counter Attacks can give you the edge against your opponent=发动反击时改变姿态可以让你在对抗对手时占据优势
@@ -2186,10 +2322,117 @@ Rotvick's refusal to use the strongest stance and his bad habits from years of c
 Shared & Advisory Points=共享 & 咨询点数
 Following Rotvick's lead Freud would like to win the Grandmaster Tournament using his new training in Barrage stance, regardless of any disadvantages=在罗特维克的带领下, 弗洛伊德希望使用他在弹幕姿态中的新训练赢得大师锦标赛, 而不考虑任何劣势
 4-Round Masters Tournament=4 轮大师赛
-Win to raise Freud's rank to Grand Master and unlock his 3rd Tactic=获胜可将弗洛伊德的段位提升为大师并解锁他的第三个战术
+Win to raise Freud's rank to Grand Master and unlock his 3rd Tactic=获胜可将弗洛伊德的段位提升为宗师并解锁他的第三个战术
 Freud Only=仅限弗洛伊德
  is now Grand Master Rank, his level increased by 5 and his 3rd Tactic is no longer Restricted=晋级宗师段位, 等级提升5, 第三策略不再受限
 Tournament Complete=比赛完成
+Like the others Greg Jr. is determined to win the Grandmaster Tournament by relying on his new training as much as possible=和其他人一样, 小格雷格决心通过尽可能多地依靠他的新训练来赢得大师赛
+Win to raise Greg Jr.'s rank to Grand Master and unlock his 3rd Tactic=获胜可将小格雷格的段位提升为宗师并解锁他的第三个战术
+Greg Jr. Only=仅限小格雷格
+Since the others are doing it Gromit will do his best to use only Blitz but old habits are hard to break=由于其他人都在这样做, 格罗米特会尽力只使用闪击, 但旧习惯很难改掉
+Win to raise Gromit's rank to Grand Master and unlock his 3rd Tactic=获胜可将格罗米特的段位提升为宗师并解锁他的第三个战术
+Gromit Only=仅限格罗米特
+To become the best Rotvick believes one must always fight under the harshest conditions.  He realizes now that this is limiting his techinque so once he is Grandmaster he will allow himself to fight using any stance=罗特维克认为, 要成为最好的人, 必须始终在最严酷的条件下战斗。 他现在意识到这限制了他的技术, 所以一旦他成为宗师, 他将允许自己使用任何姿态进行战斗
+Win to raise Rotvick's rank to Grand Master and unlock his 3rd Tactic=获胜可将罗特维克的段位提升为宗师并解锁他的第三个战术
+Rotvick Only=仅限罗特维克
+Last Round Triggers Trial=最后一轮触发器考验
+Style Triggers Trial=风格触发器考验
+Pattern Triggers Trial=格局触发器考验
+Chance Triggers Trial=概率触发器考验
+Freud still gets a little overeager when he damages an opponent.  Facing an opponent who will respond to certain actions with extreme force should help fix that=弗洛伊德在伤害对手时仍然有点过于急切. 面对一个会以极端力量回应某些动作的对手应该有助于解决这个问题
+100% Atk, Hit, Def for 4 rounds if attacked after being damaged.  100% Atk, Hit, Def except vs Guard if blocked or dodged last round.  Ignores combos=受到伤害后再次攻击时 100% 攻击, 命中, 防御, 持续4回合. 除了对抗警戒, 上一轮被阻挡或躲避 100% 攻击, 命中, 防御. 忽略连击
+Preparation and focus is the key to victory.  Attack aggressively and without mercy.  The first is Greg's future, the other is his past.  To win this fight Greg Jr will need to prepare properly to counter the enemy's style=准备和专注是胜利的关键. 攻击性强, 毫不留情. 第一个是格雷格的未来, 另一个是他的过去. 为了赢得这场战斗, 小格雷格需要做好适当的准备以对抗敌人的风格
+100% Atk, Hit and Def vs all but Barrage when Two-Handed.  100% Atk, Hit and Def vs all but Guard when Dual Swords=除对抗弹幕外的所有姿态, 双手时 100% 攻击, 命中和防御. 除对抗警戒外的所有姿态, 双剑时 100% 攻击, 命中和防御
+Gromit is still struggling to not put up his guard after the opponent blocks: Years of training with counter experts like Wallace and Marshall will do that to you.   Forcing Gromit to switch stances in a predictable manner may help=在对手格挡后, 格罗米特仍在努力不提高警惕: 多年与华勒斯和马歇尔这样的反击专家一起训练会让你做到这一点. 强迫格罗米特以可预测的方式改变姿态可能会有所帮助
+Ignores Combos.  100% Atk, Hit, Def on Odd rounds except vs Guard.  100% Atk, Hit, Def on Even rounds except vs Blitz=忽略连击. 除了对抗警戒, 在奇数回合 100% 攻击, 命中, 防御. 除了对抗闪击, 在偶数回合 100% 攻击, 命中, 防御
+Rotvick is begining to overcome his habbit of switching to two-hands mid-fight but is determined to turn it into an asset.   Rotvick's opponent has been told to show him no mercy if he attacks the same way twice or in a predictable manner=罗特维克开始克服他在战斗中切换到双手的习惯, 但决心将其变成一种资产. 罗特维克的对手被告知, 如果他以同样的方式攻击两次或以可预测的方式攻击他, 就不要怜悯他
+100% Stats vs each Stance and Style Combo the opponent has used before.  100% Stats if a non-chance trigger tactic activates=100% 属性对抗对手之前使用过的每种姿态和风格组合. 100% 属性如果非概率触发策略激活
+Rotvick only=仅限罗特维克
+ Level Increased by 5 and his 4th Tactic is no longer Restricted=等级提升5, 第四个战术不再受限
+Grudge Match=恩怨对决
+Freud's anger towards James for an old head injury has mostly diminished but he is still filled with rage anytime he is hurt and forgets his defenese.   Winning a duel against his old partner in the Mercenary Guild may be the only cure=弗洛伊德对詹姆士旧时头部受伤的愤怒已经基本消退, 但每当他受伤并忘记防御时, 他仍然充满愤怒. 在佣兵公会与他的老搭档决斗获胜可能是唯一的解药
+Bonus vs Fencers. +50 hit each combo attack until end of combo=对抗击剑时有加成. 每次连击 +50 命中直到连击结束
+Freud only=仅限弗洛伊德
+Freud has a slight fear of being injured again by James=弗洛伊德有点害怕再次被詹姆斯伤害
+First to 10 Hits=先击中 10 次
+Family Feud=家庭不和
+Greg still doesn't really understand why his son wants to leave the Order of the Sword and refuses to make it official until he has been defeated=格雷格仍然不明白为什么他的儿子想要离开圣剑骑士团并且在他被打败之前拒绝正式宣布
+Bonus vs Dual Sword Users.  Attack Failure from low stamina reduced by 25%=对抗双剑使用者时有加成. 低体力造成的攻击失败减少 25%
+Greg Jr. has doubts about his abilities when face-to-face with his Father=小格雷格在与父亲面对面时怀疑自己的能力
+Extended Duel=延长决斗
+Friendly Challenge=友情挑战
+Gromit was relieved of duty from the Imperial Army for getting tired too easily and having terrible aim but was told that if he could survive for a minute against Wallace that he would be reconsidered for entry.  Gromit is no longer interested in rejoining but is insulted they think he can't win in under a minute=格罗米特因太容易疲劳和瞄准不准而被帝国军队解除职务, 但被告知如果他能在与华勒斯的比赛中幸存一分钟, 他将被重新考虑入伍. 格罗米特不再有兴趣重新加入, 但被侮辱了, 他们认为他不能在一分钟内获胜
+Bonus vs Shield users.  Fast Stamina Recovery=对抗盾牌使用者时有加成. 快速体力恢复
+Gromit is nervous about his aim when fighting Wallace=格罗米特在与华勒斯战斗时对他的目标感到紧张
+ Level Increased by 5 and his 5th Tactic is no longer Restricted=等级提升5, 第五个战术不再受限
+Initiation=入会仪式
+Special Match against his Disciples.  After this match Rotvick plans to begin his weapons training=与他的弟子的特殊比赛. 这场比赛结束后, 罗特维克计划开始他的武器训练
+damaged the last round=上一回合受伤
+No Flanking Bonuses=没有侧翼加成
+3-on-1 Duel=3对1决斗
+Campaign=战役
+Campaigns are large quests made up of Multiple Maps=战役是由多个地图组成的大型任务
+Clear a map to move on to the next=清除地图以移动到下一个
+There are muliple ways to Clear a Map with Scouting being the easiest=有多种方法可以清除地图, 侦察是最简单的
+To Scout each zone will need to be Invaded or Conquered at least once=要侦察每个区域, 至少需要入侵或征服一次
+Note that some Maps will be difficult to do anything but Scout, like Maps that have the Weakness Effect=请注意, 有些地图除了侦察外很难做任何事情, 例如具有弱点效应的地图
+Enemy Levels and some effects like Weakness get stronger based on the number of Connections a Map has=敌人等级和某些效果(如弱点)会根据地图具有的连接数而变得更强
+You can reduce some of these effects by Invading or Conquering the Connected Maps=您可以通过入侵或征服连接的地图来减少其中一些影响
+Start Previously Cleared Maps with bonus Battle Points based on the Size and Completion Type=根据大小和完成类型以奖励战斗点数开始先前清除的地图
+Earn Campaign Points from Active Battles and any Maps Cleared=从活跃的战斗和清除的任何地图中赚取战役点数
+Spend them in the Command Menu=在指挥菜单中使用它们
+Scouted Maps are worth 1 Campaign Point per Minute per Zone=每个区域每分钟侦察地图价值 1 个战役点数
+Invaded Maps are worth 2 and Conquered Maps are worth 3=被入侵的地图价值 2, 被征服的地图价值 3
+In Active Battle each Zone Conquered is worth 3 Campaign Points per Minute, each Zone Invaded is worth 2 and each zone previously cleared (Scouted) is worth 1=在主动战斗中, 每个被征服的区域每分钟价值 3 个战役点数, 每个被入侵的区域价值 2 个, 每个先前清除(侦察)的区域价值 1 个
+While the Ultimate Goal of a Campaign may be to Conquer all Maps each Campaign has a list of smaller Goals that can be completed first=虽然战役的最终目标可能是征服所有地图, 但每个战役都有一个可以首先完成的较小目标列表
+Rewards will be earned for each Goal unlocked, many of which could make completing the Campaign easier=解锁的每个目标都会获得奖励, 其中许多目标可以让完成战役变得更容易
+Bronze Coins have been Unlocked=铜币已解锁
+Earn up to 30 Bronze Coins from each Map=从每张地图中赚取最多 30 枚铜币
+10 for Scouting, 10 more for Invading and the last 10 for Conquering a Map=10 个来自侦察, 10 个来自入侵, 最后 10 个来自征服地图
+Complete Campaign Goals to figure out what they are used for=完成战役目标以弄清楚它们的用途
+Wide open spaces of land that need to be cleared of Monsters that have come from the Blight=广阔的土地空间需要清除来自瘟疫的怪物
+Just outside of the South Blight.  Some powerful undead guard the Forest making Conquering difficult=就在南瘟疫区外. 一些强大的不死生物守卫着森林, 使征服变得困难
+With the recent march of the Cursaders along the Old Trade Route, which fell to the Blight many years ago, much of the zombie horde has been eliminated creating a unique opportunity to reclaim the lost territory=随着最近十字军沿着多年前沦陷于瘟疫的旧贸易路线行进, 大部分僵尸部落已经被消灭, 创造了一个独特的机会来夺回失地
+Temporary Skills and Layout=临时技能和布局
+More skills coming soon=更多技能即将推出
+Starting Battle Points=起始战斗点数
+Start Battles with 500 Battle Points=以 500 战斗点数开始战斗
+War Archives Discount=战争档案折扣
+Reduce the Cost of all War Archives by=将所有战争档案的成本降低
+Completion Data=完成数据
+Campaign Point Boost=战役点数加成
+Increase Campaign Points Earned by=增加获得的战役点数
+Starting Battle Bonus=起始战斗奖励
+Increase Base Starting Battle Points by=基础起始战斗点数增加
+Unit Exp Needs=+单位经验需求
+Reduce the Exp Needed Multiplier of Units by=将单位所需的经验值乘数减少
+Unit Exp Needs multiplier starts at 15%=单位经验值需求乘数从 15% 开始
+Reduce Rank-Up cost by=降低升级段成本
+Target Map Conquered=目标地图已征服
+Coming Soon=即将推出
+Not yet supported=尚不支持
+Maps Invaded=地图已入侵
+Maps Conquered=地图已征服
+Unit Levels=单位等级
+New Units start with +5 Levels=新单位从 +5 级开始
+doesn't affect hire Costs=不影响租用成本
+at Command Level=在指挥等级
+more South Blight Maps=更多南部瘟疫地图
+Complete Campaign Goals to Unlock=完成战役目标以解锁
+Enemy Levels per Zone Cleared=敌人等级每个清除的区域
+Map Details=地图详情
+Start Battle=开始战斗
+Withdraw=撤离
+Zombies are roaming the countryside=僵尸在乡间漫游
+They move slow (low atk speed) and don't defend themselves but their HP regenerates, wounds heal fast and Damaging them or being Damaged by them causes Weakness (Reduces Base Stats by 1%, Stacks)=他们移动缓慢(低攻击速度)并且不保护自己, 但他们的生命值会恢复, 伤口会快速愈合并且伤害他们或被他们伤害会导致虚弱(减少 1% 的基础统计, 堆叠)
+Mission Failure=任务失败
+Ends the battle. All progress will be lost​=结束战斗. 所有进度都将丢失
+Old Trade Route Maps=旧贸易路线地图
+requires Purify=需要净化
+Purge=净化
+Must be able to Conquer=必须能够征服
+Maps=地图
+History of Combat Archive=战斗档案的历史
 /////////endregion
 
 /////////region 宿敌
@@ -2218,16 +2461,21 @@ Deal Damage in Defend Stance=以防御姿态造成伤害
 Very High HP.  High Defend.  +100 hit and 50% Power Strike if Opponent Defends.  100% Counter if Opponent uses Barrage Stance=非常高的生命值.  高防御.  如果对手防御, +100 命中和 50% 强力打击.  对手使用弹幕姿态时 100% 反击
 Very high Attack.  High Damage.  +100 attack if opponent is using a Claymore.  100% power strike if Opponent is using Blitz Stance=非常高的攻击.  高伤害.  如果对手使用阔刃大剑 +100 攻击.  如果对手使用闪击姿态, 则 100% 强力打击
 Dual Wield Claymores Only=仅限持阔刃大剑的双剑风格
-+50 Attack, Defend and Hit for each stance opponent uses beyond the first. 50% chance attacks reduce Attack, Defend, Hit and Stamina by 10 points. 100% Combo Attack if Hit chance is less than 50%=在对手第一个之后使用的每个姿势 +50 攻击, 防御和命中. 50% 几率攻击减少攻击, 防御, 命中和体力 10 点. 如果命中几率低于 50%, 则 100% 连击
-+50 Attack, Defend and Hit for each stance opponent uses beyond the first.  All attacks deal +1 Wound.  100% Combo Attack if Hit chance is less than 50%=在对手第一个之后使用的每个姿势 +50 攻击, 防御和命中.  所有攻击造成 +1 伤口.  如果命中几率低于 50%, 则 100% 连击
++50 Attack, Defend and Hit for each stance opponent uses beyond the first. 50% chance attacks reduce Attack, Defend, Hit and Stamina by 10 points. 100% Combo Attack if Hit chance is less than 50%=在对手第一个之后使用的每个姿态 +50 攻击, 防御和命中. 50% 几率攻击减少攻击, 防御, 命中和体力 10 点. 如果命中几率低于 50%, 则 100% 连击
++50 Attack, Defend and Hit for each stance opponent uses beyond the first.  All attacks deal +1 Wound.  100% Combo Attack if Hit chance is less than 50%=在对手第一个之后使用的每个姿态 +50 攻击, 防御和命中.  所有攻击造成 +1 伤口.  如果命中几率低于 50%, 则 100% 连击
 Attack, Block or Dodge in 3 different Stances=以 3 种不同的姿态攻击, 格挡或闪避
 High Attack. Very high Damage. First Strike. 100% Power Strike if HP > 50%.  Concentration's effect is Halved.  Critical damage reduced by 50%=高攻击. 非常高的伤害. 先攻. 如果生命值 > 50%, 则 100% 强力打击.  专注的效果减半.  暴击伤害降低 50%
 Very High Attack.  Bonuses vs 2H, Dual Swords and Barrage.  Can use Blitz stance.  +10% attack 1 round after a right or left hand attack.  50% chance to deal double damage=非常高的攻击.  对抗双手剑, 双剑和弹幕时有加成.  可以使用闪击姿态.  在右手或左手攻击后 1 轮 +10% 攻击.  50% 几率造成双倍伤害
 High Defend and HP.  Bonus vs 2H, Shields and Guard.  Can use Barrage Stance.  +50% Attack and +10% hit after shield blocks and successful Counter Attacks=高防御和生命值. 对抗双手剑, 盾牌和警戒时有加成.  可以使用弹幕姿态.  在盾牌格挡和成功反击后 +50% 攻击和 +10% 命中
 High Hit, High Crit.  Bonus vs Fencing, Dual Swords and Blitz.  Can use Guard stance.  +20% Attack 1 round after a successful Combo Strike=高命中, 高暴击.  对抗击剑, 双剑和闪击时有加成.  可以使用警戒姿态.  连击成功后 1 轮 +20% 攻击
+Starts with unusually high stats: Loses 500 to all stats if hit by at least one Counter Attack.  Loses 500 to all stats if hit 3 times in one Combo.  Opponent's Counter chance is Halved=以异常高的属性开始: 如果被至少一次反击击中, 则所有属性损失 500. 如果在一个连击中被击中 3 次, 所有属性将损失 500. 对手的反击机会减半
+Never use=从不使用
+Has unusually high Stats and Deflect: Loses 300 stats, 20% Deflect if hit by a Power Strike.  Loses 300 stats, 20% Deflect if hit 3 times in one Combo.  20% less fatigue.  50% chance to Ignore Combos=具有异常高的属性和偏斜: 如果被强力打击击中失去 300 属性, 20% 偏斜. 如果在一个连击中被击中 3 次, 则失去 300 属性， 20% 偏斜. 减少 20% 疲劳. 50% 几率忽略连击
+High Starting Stats: Loses 300 stats, 2 Combo Strikes if hit by a Power Strike.  Loses 300 stats, 2 Combo Strikes if hit by a Counter Atk.  Crit Attacks deal 2x Dmg.  +1 chance to block Power Strikes=高起始属性: 如果被强力打击击中失去 300 属性, 2 连击. 如果被反击击中, 则失去 300 属性, 2 连击。 暴击攻击造成 2 倍伤害. +1 机会格挡强力打击
 /////////endregion
 
 /////////region 聘请宿敌
+Requires a Master to have at least 5X levels of=要求导师至少有 5X 等级
 Adds a Hybrid Skill with the same name=添加具有相同名称的混合技能
 Adds a Hybrid Skill=添加一个混合技能
  and raises its Max Level by 5 per level (Cost: 5 Skill Points)=并且每级将其最高等级提高 5 (成本: 5技能点)
@@ -2237,6 +2485,7 @@ Requires a Master to have at least 5 levels of =要求导师至少有 5 级
 +25% Familiarity if Dual Swords Style=双剑风格时 +25% 熟练度
 Power Training=强力训练
 +200% Experience (per level) if opponent is defeated by a single attack=如果对手被一次攻击击败, +200% 经验 (每级)
++300% Experience (per level) if opponent is defeated by a single attack=如果对手被一次攻击击败, +200% 经验 (每级)
 +200% Experience (per level) on win if Dual Swords only.=如果只用双剑风格获胜时 +200% 经验 (每级)
 Lead Disciplinary=自律领袖
 Adds the Lead Disciplinary Mastery Skill (+100% Exp per Master with Discipline)=添加自律领袖精通技能 (每个有 自律 的导师 +100% 经验)
@@ -2309,6 +2558,21 @@ if Blitz Level=如果闪击等级
 Spiritual Leader=冥想领袖
 Adds the Spiritual Leader Mastery Skill (+50% Exp per Master with Meditation)=添加冥想领袖精通技能 (每个有 冥想 的导师 +50% 经验)
 +100% Familiarity to Claymore and Leather Armor=阔刃大剑和皮甲 +100% 熟练度
+Inspiring Leader=励志领袖
+
+Brutal Training unlocked=残酷训练解锁
+Brutal Training=残酷训练
+Earn 1.4x Exp per Training Room Level=每个训练室级别获得 1.4x 经验值
+Greater Dual Swords Mentor Unlocked=高级双剑指导解锁
+Greater Dual Swords Mentor=高级双剑指导
+Skill Point for each Rival Star & Special Training Permanently unlocked=每个宿敌之星 & 特殊训练 的技能点永久解锁
+Permanently Unlocked Rival Star=永久解锁的宿敌之星
+Max Aggression unlocked=最大好斗解锁
+Max Aggression=最大好斗
++5% Attack after all other calculations if Aggression is Maxed=如果 好斗 达到最大值, 则在所有其他计算后 +5% 攻击
+max with innovation=创新最大化
+on win if Dual Swords only=只用双剑获胜
+Greater =高级
 /////////endregion
 
 /////////region 更新日志
@@ -2694,7 +2958,9 @@ Hour=小时
 hours=时
 hour=时
 h=时
+Minutes=分钟
 minutes=分
+Minute=分钟
 minute=分
 mins=分
 Mins=分
@@ -2771,9 +3037,11 @@ Win ([0-9.,]+)(?:st|nd|rd|th) Rival Star from (Grand Master|Founder|Head Master|
 Total Stars: ([0-9.,]+) of ([0-9.,]+)=总星星: $1 / $2
 Rival Stars: ([0-9.,]+) of ([0-9.,]+)=宿敌之星: $1 / $2
 Total Stars Unlocked at Least Once: ([0-9.,]+) of ([0-9.,]+)=至少解锁一次的总星数: $1 / $2
+([0-9.,]+) of ([0-9.,]+) Rival Stars Collected=$1 / $2 宿敌之星已收集
 Defeat (Grand Master|Founder|Head Master|Commander|Guildmaster) (\w+(?: Sr\.)?) to unlock=击败 $1 $2 以解锁
 Defeat (Grand Master|Founder|Head Master|Commander|Guildmaster) (\w+(?: Sr\.)?) and have at least  ([0-9.,]+) Total Fame=击败 $1 $2 并拥有至少 $3 总名望以解锁
 Co-Founders: ([0-9.,]+) of ([0-9.,]+)=联合创始人: $1 / $2
+([0-9.,]+) of ([0-9.,]+) Cofounders Completed=$1 / $2 联合创始人已完成
 
 Retreat used ([0-9.,]+)/([0-9.,]+) Times=撤退已使用 $1/$2 次
 Fallback used ([0-9.,]+)/([0-9.,]+) Times=后退已使用 $1/$2 次
@@ -2793,6 +3061,8 @@ History of ([\w &]+) ([0-9.,]+)=$1历史 $2
 This Unit does not get a (\w+(?: \w+)?) Rank Skill=该单位未获得 $1 技能
 No (\w+(?: \w+)?) Scrolls: Purchase Library to Begin Research=没有 $1 卷轴: 购买图书馆以开始研究
 
+Skip ahead (\d+) (Minute|Minutes|Hour|Hours) as though Offline=快进 $1 $2, 就像离线一样
+
 (Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec) ([0-9.,]+)(?:st|nd|rd|th)=$1 $2日
 Early (Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec)=$1上旬
 
@@ -2808,6 +3078,9 @@ S([0-9]+)=次要$1
 ([0-9]+)\nLines=行\n$1
 Line ([0-9]+)=行 $1
 
+Down:(\d+)=降级:$1
+\(Right\)=(右手)
+
 ===============================================ignore
 
 Sword Fight
@@ -2821,11 +3094,15 @@ Sword Fight
 <#5500AA>
 <#AA0055>
 <#AA0000>
+<#88DDFF>
 <sprite name="rNote">
 <sprite name="yNote">
 <sprite name="info">
 <sprite name="check">
 <sprite name="goldCoin">
+<sprite name="bronzeCoin">
+<sprite name="wDash" tint=1>
+<sprite name="wCheck" tint=1>
 <sprite=15>
 <u>
 </u>
@@ -2838,6 +3115,7 @@ Sword Fight
 <size=120%>
 <size=80%>
 <size=70%>
+<size=75%>
 <size=65%>
 </size>
 <pos=60%>
@@ -2860,7 +3138,6 @@ N/A
 ===============================================ignoreReg
 
 ##
-\?\?
 
 ===============================================ignoreCheck
 
@@ -2880,6 +3157,7 @@ X
 XX
 XXX
 XXXX
+XXXeXXX
 Y
 
 n
