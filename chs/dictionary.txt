@@ -547,7 +547,7 @@ Auto Save=自动保存
 Platinum=白金
 Show\nLevels=显示\n等级
 Highest=最高
-Hire=雇佣
+Hire=雇用
 Deflect Boost=偏斜加成
 Reduced Dodge Stamina=减少闪避体力
 Reduce Stamina used when dodging by 40% if Cloth Armor is equipped=装备布甲时闪避时消耗的体力减少 40%
@@ -942,7 +942,7 @@ Rival #=宿敌 #
 Can only hire a Rival after earning all 3 Stars=只能在获得所有 3 星后才能雇用宿敌
 They can level up at your school and gain experience based on the levels of your Masters=他们可以在你的学校升级, 并根据你的导师等级获得经验
 Spar them anytime for quick exp or undergo special training for permanent bonuses=随时与他们切磋以获得快速经验或接受特殊训练以获得永久奖励
-Hire a Rival Grand Master=雇佣一位宿敌导师
+Hire a Rival Grand Master=雇用一位宿敌导师
 Hire Rivals to gain access to their knowledge of high level Fighting Skills and unique Teaching Styles=雇用宿敌以获得他们的高等级战斗技能和独特教学风格的知识
 Only Rivals you've earned 3 stars from are listed=仅列出你赢得 3 星的宿敌
 Choose a Rival to Hire=选择要雇用的宿敌
@@ -1007,6 +1007,7 @@ Rival Training=宿敌训练
 Adv. Students Uniform Items start with +3 Familiarity Levels (+4 if same sword) per Training Room=每个训练室高级学生制服物品的熟练度起始为 +3 (如果是同一把剑则为 +4)
 up to Highest Level Ever=直到有史以来的最高等级
 You Can't Downgrade then Upgrade a Rival Master's Skills in the middle of a Fight=你不能在战斗中降级然后升级宿敌导师的技能
+You Can't Downgrade then Upgrade a Rival Master's Skills at the end of a fight=你不能在战斗结束时降级然后升级宿敌导师的技能
 Would you like to Quit the Fight=你想退出战斗吗
 Quit Fight=退出战斗
 You Can't Replace a Rival Master in the middle of a Fight=你不能在战斗中更换宿敌导师
@@ -1043,7 +1044,7 @@ Requires a minimum of 50,000 Total Fame=至少需要 50,000 总名望
 Build a new school to Hire a Co-Founder=建立一所新学校以聘请联合创始人
 Co-Founder=联合创始人
 Co-Founders are similar to Rival Hires but are available from the start of the school and can't be changed=联合创始人类似于聘请宿敌, 但从学校一开始就可以使用, 并且不能更改
-Like hired Rivals they can level up at your school and gain experience based on the levels of your Masters=就像被雇佣的宿敌一样, 他们可以在你的学校升级, 并根据你的导师等级获得经验
+Like hired Rivals they can level up at your school and gain experience based on the levels of your Masters=就像被雇用的宿敌一样, 他们可以在你的学校升级, 并根据你的导师等级获得经验
 Spar them anytime for quick exp or undergo special training for permanent bonuses=随时与他们切磋以获得快速经验或接受特殊训练以获得永久奖励
 Can't Duel until the current fight has ended=在当前战斗结束之前不能决斗
 This School does not have a Co-Founder=这所学校没有联合创始人
@@ -1062,7 +1063,7 @@ Temporary Boosts until Familiarity is fully supported=临时提升直到熟练�
 +1 Hybrid Skill Point every 3 Unit Levels over Level 100=100 级以上每 3 个单位等级 +1 混合技能点
 +3% Atk, Hit and Def after all other Calcs at Grand Master Rank and +1% at levels 200, 300 and 400=在宗师段位时 +3% 攻击, 命中 和 防御在所有其他计算之后, 在 200, 300 和 400 级时 +1%
 Select Unit to Hire=选择要雇用的单位
-Hire Unit=雇佣单位
+Hire Unit=雇用单位
 Brigands Unit=强盗单位
 Soldiers Unit=士兵单位
 Rogues Unit=盗贼单位
@@ -1078,7 +1079,7 @@ Secondary Skills=次要技能
 Secondary Skill=次要技能
 Already assigned as=已经分配到
 Assign Skill=分配技能
-Not enough Battle Points to hire this Unit=没有足够的战斗点数来雇佣这个单位
+Not enough Battle Points to hire this Unit=没有足够的战斗点数来雇用这个单位
 Remove Secondary Skill=移除次要技能
 Remove Skill=移除技能
 End Battle to Train with the Disciple=结束战斗与弟子修行
@@ -1366,6 +1367,7 @@ the South Blight's Border=南瘟疫边境
 Old Trade Route=旧贸易路线
 the Old Trade Route=旧贸易路线
 2 lines of text=2行文本
+3 lines of text=3行文本
 Requires Rival Level=需要宿敌等级
 Lock Mechanism=锁定机制
 Disciple/Founder text only=仅弟子/创始人文本
@@ -1382,6 +1384,15 @@ Date and Time=日期和时间
 Date=日期
 Location=位置
 CoFounder=联合创始人
+Unavailable=不可用
+Average Scroll Level=平均卷轴等级
+Grasslands=草原
+Trade Road=贸易之路
+Atk and Hit every 10% Attack Speed difference to the faster fighter=每 10% 的攻击速度差异 +1% 攻击和命中到更快的斗士
+Also, the attacker's Attack Speed determines the speed of the animations=此外, 攻击者的攻击速度决定了动画的速度
+Faster speeds mean more Exp and Gold over time and better Top 8 Duel scores=更快的速度意味着随着时间的推移会有更多的经验值和金币以及更好的前 8 名决斗分数
+Abandoned Outpost=废弃的哨站
+Strong Zombies Soldier remain in the Outpost=强大的僵尸士兵留在前哨站
 /////////endregion
 
 /////////region 战斗技能
@@ -1623,7 +1634,7 @@ Earn your first star from a Rival Duel=从宿敌决斗中获得你的第一颗�
 Skip Tournament Rounds based on Training level=根据训练等级跳过比赛回合
 Eliminate restart time if a Master's Rank is higher than the tournament Rank=如果导师等级高于比赛等级, 则取消重新开始时间
 Add Innovation's Bonus to Total Skill Level when calculating Scroll Exp=计算卷轴经验值时将创新的奖励加到总技能等级上
-Rival Hires gain +2 Unique Mastery Skill Points=宿敌雇佣获得 +2 独特精通技能点
+Rival Hires gain +2 Unique Mastery Skill Points=宿敌雇用获得 +2 独特精通技能点
 Recuperate=疗养
 High Alert=高度戒备
 Versatility=多才多艺
@@ -1663,7 +1674,7 @@ Press Advantage=压力优势
 Anticipate=预判
 Raise Mastery Skill Level Cap by=将精通技能等级上限提高
 Main School Building can now be upgraded to Level 5=主要学校现在可以升级到 5 级
-Once upgraded you will be able to hire Rivals and unlock higher levels of the other buildings=升级后, 你将能够雇佣宿敌并解锁更高级别的其他建筑
+Once upgraded you will be able to hire Rivals and unlock higher levels of the other buildings=升级后, 你将能够雇用宿敌并解锁更高级别的其他建筑
 Main School Building can now be upgraded to Level 6=主要学校现在可以升级到 6 级
 May unlock higher levels of the other buildings and other perks=可以解锁更高级别的其他建筑物和其他津贴
 Time Controls=时间控制
@@ -1787,6 +1798,7 @@ Swashbuckler=剑客
 Pell=柱子
 Zombie=僵尸
 Zombies=僵尸
+Zealot=狂热者
 
 Novice=新手
 Scholar=学徒
@@ -2160,7 +2172,7 @@ Guard Matches=警戒赛
 Guard Masters=警戒大师
 Some of the Order of the Sword's most powerful Master-Rank Warriors demonstrate their abilities in a short tournament=圣剑骑士团中一些最强大的大师段位战士在短期比赛中展示了他们的能力
 Special 4-round tournament vs the Imperial Army's most courageous Master-Rank Knights=与帝国军最勇猛的大师段位骑士的特别4轮对决
-Short Tournament vs some of the Mercenary Guild's most deadly Master-Rank Marauders=与一些雇佣兵公会最致命的大师段位掠夺者短期比赛
+Short Tournament vs some of the Mercenary Guild's most deadly Master-Rank Marauders=与一些雇用兵公会最致命的大师段位掠夺者短期比赛
 End Match=结束比赛
 Stop Match=停止比赛
 Match Complete=比赛完成
@@ -2243,7 +2255,7 @@ Your mission, to route the Zombies that have escaped the Blight after a recent P
 Training takes place in a field outside of the Blight, so there is no weakness for Clearing Zones=训练在瘟疫之外的场地进行, 因此清除区域没有虚弱
 Conquer all zones=征服所有区域
 Shared Battle Points=共享战斗点数
-The Army tab let you Hire and Upgrade Units=军队选项卡让你雇佣和升级单位
+The Army tab let you Hire and Upgrade Units=军队选项卡让你雇用和升级单位
 Units fight like the Disciple but they don't get bonuses from the school or its masters=单位像弟子一样战斗, 但他们不会从学校或其导师那里获得加成
 Use these buttons to Switch between the Units you have hired=使用这些按钮在你雇用的单位之间切换
 Typically, if Units are available then only Units may fight in Quest battles=通常, 如果单位可用, 则只有单位可以参加任务战斗
@@ -2251,12 +2263,12 @@ Units are allowed in Training but don't gain Training Wins, Exp, Gold or Familia
 While a Unit is fighting the Disciple earns exp, gold and any other offline earnings like familiarity, as though offline=当一个单位与弟子战斗时, 弟子会获得经验值, 金币和任何其他离线收入, 如熟练度, 就像离线一样
 Battle Points (BP) are earned when Unit wins a fight=当单位赢得战斗时获得战斗点数
 Battle Points are also earned over time from Cleared Zones=战斗点数也会随着时间的推移从清除区域中获得
-All hired Units get BP equal to what was earned from Battle (its not divided)=所有雇佣单位获得的战斗点数等于从战斗中获得的战斗点数 (不分开)
+All hired Units get BP equal to what was earned from Battle (its not divided)=所有雇用单位获得的战斗点数等于从战斗中获得的战斗点数 (不分开)
 BP earned from Training goes only to the Unit that fought=从训练中获得的战斗点数仅用于战斗的单位
 Unit BP automatically goes towards the Unit's exp=单位战斗点数自动转为单位的经验
 All BP earned from any source also goes to the Army=从任何来源获得的所有战斗点数也将用于军队
-Army BP is used to Hire, Train and Upgrade Units=军队战斗点数用于雇佣, 训练和升级单位
-You'll need to hire Units to fight on this map=你需要雇佣单位在这张地图上战斗
+Army BP is used to Hire, Train and Upgrade Units=军队战斗点数用于雇用, 训练和升级单位
+You'll need to hire Units to fight on this map=你需要雇用单位在这张地图上战斗
 A Unit's stats and skills are based on type and rank=单位的属性和技能基于类型和等级
 most School and Master bonuses do not apply=大多数学校和导师加成不适用
 Earn Battle Points (BP) based on the total level of enemies defeated=根据击败的敌人的总等级获得战斗点数
@@ -2268,7 +2280,7 @@ This final training exercise puts you in full command of troops in a mock battle
 Capture flagged zones=夺取旗帜区域
 This Quest uses War Archives=此任务使用战争档案
 Earn War Archive Points anytime Battle Points are earned and spend them on Upgrades that strengthen Units and boosts Battle Points earned=每当获得战斗点数时获得战争档案点数并将其用于升级以加强单位并提高获得的战斗点数
-Soldier and Rogue Units are available for hire in this quest=士兵和盗贼单位可以在这个任务中雇佣
+Soldier and Rogue Units are available for hire in this quest=士兵和盗贼单位可以在这个任务中雇用
 There are several types of enemies in this quest, choosing the right Units to battle them may give you an advantage=此任务中有多种类型的敌人, 选择合适的单位与他们作战可能会给你带来优势
 Invade or Conquer the 3 zones with Flags to complete the quest=入侵或征服带有旗帜的 3 个区域以完成任务
 Each Flag captured doubles the Battle Points earned from Invaded and Conquered Zones=每夺取一面旗帜, 从被入侵和被征服区域获得的战斗点数就会翻倍
@@ -2404,7 +2416,7 @@ Campaign Point Boost=战役点数加成
 Increase Campaign Points Earned by=增加获得的战役点数
 Starting Battle Bonus=起始战斗奖励
 Increase Base Starting Battle Points by=基础起始战斗点数增加
-Unit Exp Needs=+单位经验需求
+Unit Exp Needs=单位经验需求
 Reduce the Exp Needed Multiplier of Units by=将单位所需的经验值乘数减少
 Unit Exp Needs multiplier starts at 15%=单位经验值需求乘数从 15% 开始
 Reduce Rank-Up cost by=降低升级段成本
@@ -2424,7 +2436,7 @@ Map Details=地图详情
 Start Battle=开始战斗
 Withdraw=撤离
 Zombies are roaming the countryside=僵尸在乡间漫游
-They move slow (low atk speed) and don't defend themselves but their HP regenerates, wounds heal fast and Damaging them or being Damaged by them causes Weakness (Reduces Base Stats by 1%, Stacks)=他们移动缓慢(低攻击速度)并且不保护自己, 但他们的生命值会恢复, 伤口会快速愈合并且伤害他们或被他们伤害会导致虚弱(减少 1% 的基础统计, 堆叠)
+They move slow (low atk speed) and don't defend themselves but their HP regenerates, wounds heal fast and Damaging them or being Damaged by them causes Weakness (Reduces Base Stats by 1%, Stacks)=他们移动缓慢(低攻击速度)并且不保护自己, 但他们的生命值会恢复, 伤口会快速愈合并且伤害他们或被他们伤害会导致虚弱(减少 1% 的基础属性, 堆叠)
 Mission Failure=任务失败
 Ends the battle. All progress will be lost​=结束战斗. 所有进度都将丢失
 Old Trade Route Maps=旧贸易路线地图
@@ -2433,6 +2445,63 @@ Purge=净化
 Must be able to Conquer=必须能够征服
 Maps=地图
 History of Combat Archive=战斗档案的历史
+New Commander for Hire=新可雇用指挥官
+You can now Hire a Rival as Commander=您现在可以宿敌对手作为指挥官
+They each have Unique skills that will aide the Campaign and can be assigned to maps to automatiaclly Scout, Invade and Conquer them=他们每个人都有独特的技能, 可以帮助战役, 可以分配给地图自动侦察, 入侵和征服他们
+Upgrade their Command Level using Bronze Coins and unlock more skills=使用铜币升级他们的指挥等级并解锁更多技能
+Use Rivals to Scout or Invade first then start a manual battle with bonus Battle Points=先使用宿敌侦察或入侵, 然后开始手动战斗并获得奖励战斗点数
+Or use Rivals to finish maps you are having trouble with=或使用宿敌完成您遇到问题的地图
+Costs Campaign Points to Hire=花费战役点数以雇用
+Must have all 3 of the Rival's Stars unlocked=必须解锁全部 3 个宿敌之星
+ Complete any Blight Management Campaign Goal=完成任意瘟疫管理战役目标
+Increase Auto-Battle Speed of Rival Commanders by +5% per Campaign Skill Purchased=每购买一项战役技能, 宿敌指挥官的自动战斗速度就会提高 +5%
+Defend Drills=防御演练
++20 Def per Command Level to all Units in Battle=每个指挥等级 +20 防御到战斗中的所有单位
+Shield Wall=盾墙
+Unlocks the Soldier Unit's Skill=解锁士兵单位的技能
++100 Def if you have another Soldier Unit=+100 防御如果你有另一个士兵单位
+Basic Logistics=基础物流
+Increase Base Starting Battle Points by +1000 for each Map Conquered=每个已征服的地图基础起始战斗点数增加 +1000
+While Commander Only=仅限指挥官
+Withdraw from the Map=撤离地图
+Map is currently Conquered=地图目前已征服
+Campaign points per minute=战役点数每分钟
+Reduces Enemy Levels in Adjacent Maps=降低相邻地图中的敌人等级
+ Level Increments= 等级增长
+ Level Increment= 等级增长
+Data Level=数据等级
+Data Name=数据名称
+Pts=点数
+Bandits have been spotted occupying many of the old settlements.  Most escape to the South-West but a few have stayed behind to block the roads and hearded zombies to slow your advance=人们发现土匪占领了许多旧定居点. 大多数人逃到西南, 但有一些人留下来挡路, 并听到僵尸的声音来减慢你的前进速度
+Auto Battle Time Estimates=自动战斗时间估计
+Can't Invade=不能入侵
+Map has Weakness Effect=地图有虚弱效果
+from Connected Maps=从相连地图
+End Rival's Current Auto-Battle to Start One Here=结束宿敌当前的自动战斗, 在这里开始
+Progress may be lost at their current battle location=在他们当前的战斗位置可能会丢失进度
+Zombies are common within the Blight=僵尸在瘟疫中很常见
+Map is currently Scouted=地图目前已侦察
+Map is currently Invaded=地图目前已入侵
+Each Zone Cleared at least once=每个区域至少清除一次
+Gain access to Connected Maps=获得连接地图的访问权限
+All Progress made towards Invading or Conquering the Map will be lost=所有在入侵或征服地图方面取得的进展都将丢失
+All Progress made towards Conquering the Map will be lost=所有征服地图的进度都将丢失
+A minor battle appears to have occurred here as the Crusaders passed by an abandoned Outpost=当十字军经过一个废弃的哨站时, 这里似乎发生了一场小规模的战斗
+The Outpost looks to have once been the home of a few powerful undead but so far only a few lesser zombies have returned=哨站看起来曾经是一些强大的不死生物的家园, 但到目前为止只有一些较小的僵尸回来了
+A strong group of Bandits are making a stand at a small town at the crossroads=一群强大的土匪正在十字路口的一个小镇上站稳脚跟
+currently =目前
+Already =已经
+Knight Unit=骑士单位
+Knights Unit=骑士单位
+Conquer this zone to increase Idle Battle Points by=征服该区域可增加空闲战斗点数
+The River Crossing was the first major battle of the Crusaders on their way to the Holy Lands=渡河是十字军在前往圣地途中的第一场重大战役
+Unfortunately it appears many of the fallen Crusaders have already risen as Zombies=不幸的是, 许多倒下的十字军似乎已经复活为僵尸
+Some soldiers of the Crusade have already risen as Zombies=一些十字军东征的士兵已经变成了僵尸
+Enemies in this zone are stronger when you Conquer=当你征服时, 这个区域的敌人会更强大
+Skeleton Soldiers Guard the Forest but they are only attacking in groups=骷髅士兵守卫着森林, 但他们只是成群结队地进攻
+Skeletons never run out of Stamina, Crit chance is halved against them and they are harder to hit with Thrusting Attacks=骷髅永远不会耗尽体力, 对他们的暴击几率减半, 而且他们更难被突刺攻击击中
+Thin blades like the Side Sword have a higher chance to Thrust when attacking=像 侧剑 这样的薄刀片在攻击时有更高的机会刺穿
+Skeleton=骷髅
 /////////endregion
 
 /////////region 宿敌
@@ -2565,7 +2634,7 @@ Brutal Training=残酷训练
 Earn 1.4x Exp per Training Room Level=每个训练室级别获得 1.4x 经验值
 Greater Dual Swords Mentor Unlocked=高级双剑指导解锁
 Greater Dual Swords Mentor=高级双剑指导
-Skill Point for each Rival Star & Special Training Permanently unlocked=每个宿敌之星 & 特殊训练 的技能点永久解锁
+ Skill Point for each Rival Star & Special Training Permanently unlocked= 每个宿敌之星 & 特殊训练 的技能点永久解锁
 Permanently Unlocked Rival Star=永久解锁的宿敌之星
 Max Aggression unlocked=最大好斗解锁
 Max Aggression=最大好斗
@@ -2573,6 +2642,18 @@ Max Aggression=最大好斗
 max with innovation=创新最大化
 on win if Dual Swords only=只用双剑获胜
 Greater =高级
+ Unlocks=解锁
+unlocked=已解锁
+Normal Special Training=普通特殊训练
+Unique Mastery Skill=独特精通技能
+Unique Mastery Skill Point for each Rival Star & Special Training Permanently unlocked=每个宿敌之星 & 特殊训练 的独特精通技能点永久解锁
+Maximum Aggression Skill Level without Innovation=最大 好斗 技能等级除 创新 外
+Scroll Archive=卷轴档案
+Maximum Aggression Skill Level=最大 好斗 技能等级
+Skill Archive=技能档案
+History of Aggression=好斗历史
+Masters pay 1 less to upgrade the Discipline Skill=导师少花费 1 升级自律技能
+free with scrolls=拥有卷轴免费
 /////////endregion
 
 /////////region 更新日志
@@ -2855,7 +2936,7 @@ Falter and Rush Tactics moved to a new 'Condition' category=踌躇 和 冲刺 �
 Units now get Hybrid Skill Points and After Calc Stat boosts to help make up for the missing Familiarity system (see Units' Gear Menu)=单位现在获得混合技能点和计算后属性加成, 以帮助弥补缺少的熟练度系统 (查看单位的装备菜单)
 Advanced Class Units now have 3 Tactic slots=高级单位现在有 3 个策略位置
 Fixed some layout issues with the Campaign Menu, Goals Menu and Map Tutorials=修复了战役菜单, 目标菜单和地图教程的一些布局问题
-Could switch between the last Units hired after ending a Quest or Campaign Battle using the Hotkeys=在结束任务或战役战斗后使用热键在最后雇佣的单位之间切换
+Could switch between the last Units hired after ending a Quest or Campaign Battle using the Hotkeys=在结束任务或战役战斗后使用热键在最后雇用的单位之间切换
 Percent Complete of the current Campaign Map wasn't resetting correctly on Load=当前战役地图的完成百分比未在加载时正确重置
 The 'Head Master Rotvick' Quest was unlocking if 'Exhibition Tourneys' was partially complete instead of fully complete=如果'表演赛'部分完成而不是完全完成, '带头人 罗特维克'任务将解锁
 Swapping Rivals wasn't properly ending battles, causing problems in training in some cases=交换宿敌并不能正确结束战斗, 在某些情况下会导致训练出现问题
@@ -3061,6 +3142,8 @@ History of ([\w &]+) ([0-9.,]+)=$1历史 $2
 This Unit does not get a (\w+(?: \w+)?) Rank Skill=该单位未获得 $1 技能
 No (\w+(?: \w+)?) Scrolls: Purchase Library to Begin Research=没有 $1 卷轴: 购买图书馆以开始研究
 
+The (\w+) Job meets requirements=$1 Job 满足需求
+
 Skip ahead (\d+) (Minute|Minutes|Hour|Hours) as though Offline=快进 $1 $2, 就像离线一样
 
 (Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec) ([0-9.,]+)(?:st|nd|rd|th)=$1 $2日
@@ -3095,6 +3178,7 @@ Sword Fight
 <#AA0055>
 <#AA0000>
 <#88DDFF>
+<#FFFFFF>
 <sprite name="rNote">
 <sprite name="yNote">
 <sprite name="info">
@@ -3113,6 +3197,7 @@ Sword Fight
 <S>
 </S>
 <size=120%>
+<size=110%>
 <size=80%>
 <size=70%>
 <size=75%>
@@ -3129,11 +3214,13 @@ Sword Fight
 <line-height=100%>
 <indent=3%>
 <indent=5%>
+<indent=6.2%>
 </color>
 ctrl+c
 ctrl+v
 (G, H, J
 N/A
+aoeu
 
 ===============================================ignoreReg
 
